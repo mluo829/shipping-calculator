@@ -1,0 +1,22 @@
+<%= form_tag("/search", method: "get") do %>
+<%= text_field_tag(:q, nil, placeholder: 'Address Line 1') %>
+<%= text_field_tag(:q, nil, placeholder: 'Address Line 2') %>
+<%= text_field_tag(:q, nil, placeholder: 'City') %>
+<%= text_field_tag(:q, nil, placeholder: 'State/Province') %>
+<%= text_field_tag(:q, nil, placeholder: 'Zip Code') %>
+<%= text_field_tag(:q, nil, placeholder: 'Country') %>
+
+<%= text_field_tag(:q, nil, placeholder: 'Address Line 1') %>
+<%= text_field_tag(:q, nil, placeholder: 'Address Line 2') %>
+<%= text_field_tag(:q, nil, placeholder: 'City') %>
+<%= text_field_tag(:q, nil, placeholder: 'State/Province') %>
+<%= text_field_tag(:q, nil, placeholder: 'Zip Code') %>
+<%= text_field_tag(:q, nil, placeholder: 'Country') %>
+
+<%= text_field_tag(:q, nil, placeholder: 'Length (inches)') %>
+<%= text_field_tag(:q, nil, placeholder: 'Weight (inches)') %>
+<%= text_field_tag(:q, nil, placeholder: 'Height (inches)') %>
+<%= text_field_tag(:q, nil, placeholder: 'Weight (ounces)') %>
+
+<%= submit_tag("Search") %>
+<% end %>
